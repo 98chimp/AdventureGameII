@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB07A11E1AB3C906004633B9 /* Grid.m in Sources */ = {isa = PBXBuildFile; fileRef = EB07A11D1AB3C906004633B9 /* Grid.m */; };
+		EBB3E1441AB4E57100390445 /* Parts.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3E1431AB4E57100390445 /* Parts.m */; };
+		EBB3E1471AB4E6FC00390445 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3E1461AB4E6FC00390445 /* Player.m */; };
+		EBB3E14A1AB4E70B00390445 /* Cube.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3E1491AB4E70B00390445 /* Cube.m */; };
+		EBB3E14D1AB4E73100390445 /* Treasure.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB3E14C1AB4E73100390445 /* Treasure.m */; };
 		EBD0D1711AB3C7CE00DFFADA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBD0D1701AB3C7CE00DFFADA /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +28,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EB07A11C1AB3C906004633B9 /* Grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grid.h; sourceTree = "<group>"; };
+		EB07A11D1AB3C906004633B9 /* Grid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Grid.m; sourceTree = "<group>"; };
+		EBB3E1421AB4E57100390445 /* Parts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parts.h; sourceTree = "<group>"; };
+		EBB3E1431AB4E57100390445 /* Parts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parts.m; sourceTree = "<group>"; };
+		EBB3E1451AB4E6FC00390445 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		EBB3E1461AB4E6FC00390445 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		EBB3E1481AB4E70B00390445 /* Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		EBB3E1491AB4E70B00390445 /* Cube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cube.m; sourceTree = "<group>"; };
+		EBB3E14B1AB4E73100390445 /* Treasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Treasure.h; sourceTree = "<group>"; };
+		EBB3E14C1AB4E73100390445 /* Treasure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Treasure.m; sourceTree = "<group>"; };
 		EBD0D16D1AB3C7CE00DFFADA /* AdventureGameII */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AdventureGameII; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBD0D1701AB3C7CE00DFFADA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				EBD0D1701AB3C7CE00DFFADA /* main.m */,
+				EB07A11C1AB3C906004633B9 /* Grid.h */,
+				EB07A11D1AB3C906004633B9 /* Grid.m */,
+				EBB3E1421AB4E57100390445 /* Parts.h */,
+				EBB3E1431AB4E57100390445 /* Parts.m */,
+				EBB3E1451AB4E6FC00390445 /* Player.h */,
+				EBB3E1461AB4E6FC00390445 /* Player.m */,
+				EBB3E1481AB4E70B00390445 /* Cube.h */,
+				EBB3E1491AB4E70B00390445 /* Cube.m */,
+				EBB3E14B1AB4E73100390445 /* Treasure.h */,
+				EBB3E14C1AB4E73100390445 /* Treasure.m */,
 			);
 			path = AdventureGameII;
 			sourceTree = "<group>";
@@ -118,6 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBB3E14A1AB4E70B00390445 /* Cube.m in Sources */,
+				EBB3E1471AB4E6FC00390445 /* Player.m in Sources */,
+				EBB3E14D1AB4E73100390445 /* Treasure.m in Sources */,
+				EBB3E1441AB4E57100390445 /* Parts.m in Sources */,
+				EB07A11E1AB3C906004633B9 /* Grid.m in Sources */,
 				EBD0D1711AB3C7CE00DFFADA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,6 +263,7 @@
 				EBD0D1761AB3C7CE00DFFADA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
